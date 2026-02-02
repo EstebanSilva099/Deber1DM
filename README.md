@@ -173,4 +173,18 @@ Timezones:
 
 Todos los timestamps se transforman a UTC para consistencia.
 
+## Checklist de aceptación
+
+- [x] Mage y Postgres se comunican por nombre de servicio.
+- [x] Todos los secretos (QBO y Postgres) están en Mage Secrets; no hay secretos en el repo/entorno expuesto.
+- [~] Pipelines qb_<entidad>_backfill acepta fecha_inicio y fecha_fin (UTC) y segmenta el rango (implementado completamente para Customers).
+- [~] Trigger one-time configurado, ejecutado y luego deshabilitado/marcado como completado (ejecutado manualmente, evidencia parcial).
+- [x] Esquema raw con tablas por entidad, payload completo y metadatos obligatorios (Customers).
+- [~] Idempotencia verificada: reejecución de un tramo no genera duplicados (ON CONFLICT implementado, evidencia parcial).
+- [x] Paginación y rate limits manejados y documentados.
+- [~] Volumetría y validaciones mínimas registradas y archivadas como evidencia (logs revisados, capturas no archivadas).
+- [ ] Runbook de reanudación y reintentos disponible y seguido (no formalizado completamente).
+
+
+
 
