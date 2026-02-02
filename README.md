@@ -173,32 +173,4 @@ Timezones:
 
 Todos los timestamps se transforman a UTC para consistencia.
 
----
 
-## Alcance del proyecto
-
-Incluye:
-
-Backfill histórico.  
-OAuth seguro.  
-RAW layer.  
-Idempotencia.  
-Dockerizado.  
-Logs de control.
-
-No incluye:
-
-Incrementales diarios.  
-Modelado dimensional.  
-Capa curated.  
-Modelos dbt.
-
----
-
-## Trabajo futuro
-
-Implementar pipelines para Invoices e Items.  
-Automatizar cargas incrementales diarias.  
-Crear capa staging y clean.  
-Modelado dimensional.  
-Integración con dbt.
