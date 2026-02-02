@@ -1,0 +1,1 @@
+{"inserted_or_updated": {"module": "builtins", "name": "int", "type": "instance", "uuid": "builtins.int", "hash": "0x7eff677444b0"}, "raw.qb_invoices_count": {"module": "pandas.core.frame", "name": "DataFrame", "type": "instance", "uuid": "pandas.core.frame.DataFrame", "hash": "0x7efe977f85e0", "variable_type": "dataframe"}}
