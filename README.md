@@ -18,7 +18,7 @@ Actualmente el repositorio contiene:
 Pipeline funcional para Customers.
 Arquitectura preparada para extenderse a Invoices e Items.
 Estructura del proyecto:
-.
+
 ├── docker-compose.yml
 ├── mage/
 │   ├── data_loaders/
